@@ -1,5 +1,21 @@
 local options = {
-  ensure_installed = { "lua-language-server" }, -- not an option from mason.nvim
+  ensure_installed = {
+    -- LSP Servers
+    "clangd",
+    "css-lsp",
+    "eslint-lsp",
+    "html-lsp",
+    "json-lsp",
+    "lua-language-server",
+    "tailwindcss-language-server",
+    "typescript-language-server",
+    
+    -- Formatters & Linters
+    "clang-format",
+    "codelldb",
+    "cpplint",
+    "golangci-lint",
+  },
 
   PATH = "skip",
 
